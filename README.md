@@ -9,12 +9,16 @@ Content list
 
 
 ## Objectives
-The ultimate goal of the work in this notebook is to extract meaningful information from a set of data- and lookup tables from OLIST, a Brazilian e-commerce department store (SaaS). *Meaningful* in this context means adequate to serve as a base for beneficial data driven decision making. The analysis will be focussed on three points of attention:
+The ultimate goal of the work in this notebook is to extract meaningful information from a set of data- and lookup tables from Olist, a Brazilian e-commerce department store (SaaS). *Meaningful* in this context means adequate to serve as a base for beneficial data driven decision making. The analysis will be focussed on three points of attention:
 - Trends in the business development and a prognosis where the business is headed
 - Main contributors to user satisfaction and a model with allows to predict the impact of changes
 - Analysis of the physical product characteristics and SKU profile to identify qualification for potential logistic process automation
 
-* About Olist (Business understanding)
+
+
+## About Olist
+As a SaaS business in the e-commerce sector, Olist is a online selling platform for small businesses.
+
 * The data (files, content, relations...)
 
 ![GitHub Logo](https://i.imgur.com/HRhd2Y0.png)
