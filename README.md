@@ -16,12 +16,13 @@ The ultimate goal of the work in this notebook is to extract meaningful informat
 
 
 
+
 ## About Olist
-As a SaaS business in the e-commerce sector, Olist is a online selling platform for small businesses.
+Olist is for everyone "who wants to sell more and better" and "who wants to attract new customers". As a SaaS business in the e-commerce sector, Olist is a online selling platform for small businesses. On Olist's sign-up page a range of shopkeeper profiles is listed which fits the business model. Clearly, a strong focus is on attracting more customers.
 
 * The data (files, content, relations...)
 
-![GitHub Logo](https://i.imgur.com/HRhd2Y0.png)
+![Data Structure](https://i.imgur.com/HRhd2Y0.png)
 
 * Data preparation (reading, handling missing information, outliers)
 * Exploratory analysis (trends, patterns, correlations)
