@@ -1,4 +1,4 @@
-# Olist eCommerce Data Analysis
+# Olist e-commerce Data Analysis
 
 **Lars Tinnefeld**, 2020-11-16
 
