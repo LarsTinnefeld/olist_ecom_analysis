@@ -18,7 +18,7 @@ The ultimate goal of the work in this notebook is to extract meaningful informat
 Olist is for everyone "who wants to sell more and better" and "who wants to attract new customers". As a SaaS business in the e-commerce sector, Olist is a online selling platform for small businesses. On Olist's sign-up page a range of shopkeeper profiles is listed which fits the business model. Clearly, a strong focus is on attracting more customers.
 
 ## The data
-The provided data set consists of historical order data from 2016 to 2018 and contains 100,000 orders. There are 9 files available. The below data model displays high level the references between these data- and lookup tables.
+The provided data set consists of historical order data from 2016 to 2018 and contains 100,000 orders. There are 8 files available. The below data model displays high level the references between these data- and lookup tables. The data was generously provided by Olist under the license CC BY-NC-SA 4.0 and can be found *[here](https://www.kaggle.com/olistbr/brazilian-ecommerce)* in Kaggle. 
 ![Data Structure](https://i.imgur.com/HRhd2Y0.png)
 
 * Data preparation (reading, handling missing information, outliers)
