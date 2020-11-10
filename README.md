@@ -1,6 +1,7 @@
 # Olist eCommerce Data Analysis
 
 ![portrait](https://media-exp1.licdn.com/dms/image/C4E03AQGhbnfizvFL4Q/profile-displayphoto-shrink_100_100/0?e=1610582400&v=beta&t=K00fVeHjduyafQWTtTp-N8SwOvgeAUCEL-8Vxvxpd7I)
+
 **Lars Tinnefeld**, 2020-11-16
 
 
