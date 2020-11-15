@@ -5,10 +5,10 @@
 ![portrait](https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
 ## Objectives
-The ultimate goal of the work in this notebook is to extract meaningful information from a set of data- and lookup tables from Olist, a Brazilian e-commerce department store (SaaS). *Meaningful* in this context means adequate to serve as a base for beneficial data driven decision making. Beside identifying contributors to customer satisfaction and trends, a hypothetical extension of the business service will be reviewed. This new business model would include warehousing and logistic services for the shopkeeper. The analysis will therefore be focussed on three points of attention:
-- Trends in the business development and a prognosis where the business is headed
-- Main contributors to user satisfaction and a model with allows to predict the impact of changes
-- An initial analysis of the product characteristics and SKU profile to identify qualification for a logistic process
+The ultimate goal of the work in this notebook is to extraxt information which can serve as a base for data driven decisions that could lead to improvement of the business. The data stems from Olist, a Brazilian e-commerce department store (SaaS). In detail, the analysis is applying time series, modeling and regression analysis to reveal and validate trends and patterns in the development of the business. This output may allow projections for a future business model. In addition, a hypothetical extension of the business service will be reviewed. This new business model would include warehousing and logistic services for the shopkeepers. The analysis will therefore be focussed on three points of attention:
+- Finding trends in the business
+- Prognosis where the business is headed and the validation of this prognosis
+- An initial analysis of the SKU- and order profile to identify opportunities for the potential business extension
 
 ## About Olist
 Olist is for everyone "who wants to sell more and better" and "who wants to attract new customers". As an SaaS business in the e-commerce sector, Olist is an online selling platform for small businesses. On Olist's sign-up page a range of shopkeeper profiles is listed which fits the business model. Clearly, a strong focus is on attracting more customers.
