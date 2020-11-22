@@ -1,6 +1,6 @@
 # Olist e-commerce Data Analysis
 
-**Lars Tinnefeld**, 2020-11-16
+**Lars Tinnefeld**, 2020-11-23
 
 ![portrait](https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
