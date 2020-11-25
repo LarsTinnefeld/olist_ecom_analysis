@@ -18,7 +18,7 @@ Olist is for everyone "who wants to sell more and better" and "who wants to attr
 
 ## Business objectives <a name="objectives"></a>
 The goal of the analysis is to extract information that supports Olist's business objectives. These objectives are: Attracting more shopkeepers by enhancing the service and attacting more end-customers through a broader product spectrum and higher satisfaction. The analysis is part of a business case that is looking into expanding Olist's service to also include logistics and warehousing, something Olist is not offering at the moment.
-In detail, the analysis is firstly investigating correlations in the order data with the goal to find potentially important inssights that can be integrated into the enhanced service. Secondly, the analysis investigates how the business is developing and how dynamic it changes from day to day. This includes also to find extreme events. Thirdly, a prediction about the size of the business for a future scenario needs to be modeled. This all is base of a selection- and definition process for the potential logistic concept, and eventually a business case. Questions that will be answered in this analysis are in detail:
+In detail, the analysis is firstly investigating correlations in the order data with the goal to find potentially important inssights that can be integrated into the enhanced service. Secondly, the analysis investigates how the business is developing and how dynamic it changes from day to day. This includes also to find extreme events. Thirdly, a prediction about the size of the business for a future scenario needs to be modelled. This all is base of a selection- and definition process for the potential logistic concept, and eventually a business case. Questions that will be answered in this analysis are in detail:
 - Are there correlations and patterns in the data which are important for the concept?
 - What is the general business trend?
 - How dynamic is the operation and are there extreme events which impact logistic process?
@@ -30,6 +30,16 @@ Success criteria for this analysis stage is to answer the above questions with t
 - Exploratory data analysis
 - Time series visualization
 - Linear regression
+
+Analysis software and libraries:
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Plotly
+- Seaborn
+- scikit-learn
+- datetime
 
 ## Data <a name="data"></a>
 The provided data set consists of historical order data from 2016 to 2018 and contains 100,000 orders. There are 8 files available. The below data model displays high level the references between these data- and lookup tables. The data was generously provided by Olist under the license CC BY-NC-SA 4.0 and can be found *[here](https://www.kaggle.com/olistbr/brazilian-ecommerce)* in Kaggle.
