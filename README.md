@@ -35,8 +35,13 @@ For the current analysis following data files were used:
 
 ![ERD1](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Olist-Analysis_1_ERD.PNG?raw=true)
 
+The notebook "olist_analysis" contains a complete procedure of data checks and cleaning. Applied verification methods:
+- Missing data check
+- Duplicate records
+- Data formats
 
 ## Data preparation
+
 
 ## Modeling
 
