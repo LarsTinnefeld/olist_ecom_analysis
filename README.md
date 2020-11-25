@@ -5,8 +5,8 @@
 ![portrait](https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
 ## Table of content
-1. [About](#About Olist's)
-2. [Business](#Business objectives)
+1. [About Olist's](#About Olist's)
+2. [Business objectives](#Business objectives)
 
 ## About Olist's
 Olist is for everyone "who wants to sell more and better" and "who wants to attract new customers". As an business in the e-commerce sector, Olist is an online selling platform for small businesses. On Olist's sign-up page a range of shopkeeper profiles is listed which fits the business model. A strong focus is on attracting more customers through a larger market presence. A user satisfaction report helps to address areas of attention. Olist therefore acts as a service provider which is managing the sales process for the shopkeepers. Olist doen't own any of the offered products and is also not managing shipping or inventory.
