@@ -29,10 +29,11 @@ The provided data set consists of historical order data from 2016 to 2018 and co
 *Data model as provided in Kaggle*
 
 For the current analysis following data files were used:
-- olist_orders_dataset.csv: Contains the orders with order-id, delivery time stamps, the order status and customer-id
-- olist_order_items_dataset.csv: Contains the details of the orders with order-id, product-id, seller-id, price, freight cost and shipping limit date
-- olist_products_dataset.csv: Contains the details of the products with product-id, category, product name, name length, available photos, dimensions and weight
+- olist_orders_dataset.csv
+- olist_order_items_dataset.csv
+- olist_products_dataset.csv
 
+![ERD1](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Olist-Analysis_1_ERD.PNG?raw=true)
 
 
 ## Data preparation
