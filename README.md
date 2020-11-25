@@ -59,6 +59,7 @@ The notebook "olist_analysis" contains a complete procedure of data checks and c
 - Missing data check
 - Duplicate records
 - Data formats
+
 Following data tables were constructed to perform the analysis:
 - df_order_items_consolidated (merging of the three original tables)
 - df_orders_daily (grouping by date)
@@ -69,6 +70,6 @@ Following data tables were constructed to perform the analysis:
 For the predictive analysis part linear regression was applied. The date variable was the only input in this analysis. The output (the predicted value) was the total daily order volume (sold units). The predictions were made for a time range from 2017 to 2020. The date format needed to be translated to a numberical format to satisfy the underlying math. The predictions were added as a new column to the data table and visualized in the same time series chart as the original data. R2-scores calculated the accuracy of the model. To increase the prediction accuracy ourliers were removed from the data.
 
 ## Evaluation and conclusion <a name="evaluation"></a>
-### Correlations and patterns:
+A complete evaluation report is contained in the linked blog post *[here](https://larstinnefeld.medium.com/an-e-commerce-data-story-e53eb8e16f90)*.
 
 The business is growing and the day-to-day volume is fluctuating very dynamically. Black Friday is a major event for the business. The prognosis is predicting with some error margin that in beginning 2020 in average 500 units per day will be sold. "Health and Beauty" and "Gift Watches" are key categories in the product mix. Delivery times for expensive products seem to be somewhat important for shopkeepers and customers. A final conclusion about the extension of the business model is outstanding due to more required concept selection steps, but initial results already show that a highly automated system would not be a good fit.
