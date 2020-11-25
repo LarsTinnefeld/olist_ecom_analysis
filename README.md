@@ -18,23 +18,22 @@ In detail, the analysis is firstly investigating correlations in the order data 
 ## Approach
 Success criteria for this analysis stage is to answer the above questions with the available data and information. To archive this the following steps and techniques are applied:
 - Data import and wrangling
-- Exploratory Data Analysis
-- Time Series Visualization
-- Logistic Regression
+- Exploratory data analysis
+- Time series visualization
+- Linear regression
 
 ## The data
-The provided data set consists of historical order data from 2016 to 2018 and contains 100,000 orders. There are 8 files available. The below data model displays high level the references between these data- and lookup tables. For the project not all data tables will be used. The data was generously provided by Olist under the license CC BY-NC-SA 4.0 and can be found *[here](https://www.kaggle.com/olistbr/brazilian-ecommerce)* in Kaggle.
+The provided data set consists of historical order data from 2016 to 2018 and contains 100,000 orders. There are 8 files available. The below data model displays high level the references between these data- and lookup tables. The data was generously provided by Olist under the license CC BY-NC-SA 4.0 and can be found *[here](https://www.kaggle.com/olistbr/brazilian-ecommerce)* in Kaggle.
 
 ![Data Structure](https://i.imgur.com/HRhd2Y0.png)
 *Data model as provided in Kaggle*
 
-For the current analysis following data files were used:
+For the current analysis following data files are used:
 - olist_orders_dataset.csv
 - olist_order_items_dataset.csv
 - olist_products_dataset.csv
 
 ![ERD1](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Olist-Analysis_1_ERD.PNG?raw=true)
-
 
 ## Data preparation
 The notebook "olist_analysis" contains a complete procedure of data checks and cleaning. Applied verification methods:
@@ -48,7 +47,9 @@ Following data tables were constructed to perform the analysis:
 ![ERD1](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Olist-Analysis_1_New_tables.PNG?raw=true)
 
 ## Modeling
-For the predictive analysis part linear regression was applied. The date variable is the only input in this analysis. The output (the predicted value) is the total daily order volume (sold units). The predictions were made for a time range from 2017 to 2020. The date format needs to be translated to a numberical format to satisfy the underlying math of the model. The predictions are added as a new column to the data table and visualized in the same time series chart as the original data.
+For the predictive analysis part linear regression was applied. The date variable was the only input in this analysis. The output (the predicted value) was the total daily order volume (sold units). The predictions were made for a time range from 2017 to 2020. The date format needed to be translated to a numberical format to satisfy the underlying math. The predictions were added as a new column to the data table and visualized in the same time series chart as the original data. R2-scores calculated the accuracy of the model. To increase the prediction accuracy ourliers were removed from the data.
 
 ## Conclusion and evaluation
+### Correlations and patterns:
+
 The business is growing and the day-to-day volume is fluctuating very dynamically. Black Friday is a major event for the business. The prognosis is predicting with some error margin that in beginning 2020 in average 500 units per day will be sold. "Health and Beauty" and "Gift Watches" are key categories in the product mix. Delivery times for expensive products seem to be somewhat important for shopkeepers and customers. A final conclusion about the extension of the business model is outstanding due to more required concept selection steps, but initial results already show that a highly automated system would not be a good fit.
