@@ -43,6 +43,7 @@ The notebook "olist_analysis" contains a complete procedure of data checks and c
 ## Data preparation
 
 
+
 ## Modeling
 
 ## Conclusion and evaluation
