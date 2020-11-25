@@ -35,16 +35,20 @@ For the current analysis following data files were used:
 
 ![ERD1](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Olist-Analysis_1_ERD.PNG?raw=true)
 
+
+## Data preparation
 The notebook "olist_analysis" contains a complete procedure of data checks and cleaning. Applied verification methods:
 - Missing data check
 - Duplicate records
 - Data formats
+Following data tables were constructed to perform the analysis:
+- df_order_items_consolidated (merging of the three original tables)
+- df_orders_daily (grouping by date)
 
-## Data preparation
 ![ERD1](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Olist-Analysis_1_New_tables.PNG?raw=true)
 
 ## Modeling
-
+For the predictive analysis part linear regression was applied. The date variable is the only input in this analysis. The output (the predicted value) is the total daily order volume (sold units). The predictions were made for a time range from 2017 to 2020. The date format needs to be translated to a numberical format to satisfy the underlying math of the model. The predictions are added as a new column to the data table and visualized in the same time series chart as the original data.
 
 ## Conclusion and evaluation
 The business is growing and the day-to-day volume is fluctuating very dynamically. Black Friday is a major event for the business. The prognosis is predicting with some error margin that in beginning 2020 in average 500 units per day will be sold. "Health and Beauty" and "Gift Watches" are key categories in the product mix. Delivery times for expensive products seem to be somewhat important for shopkeepers and customers. A final conclusion about the extension of the business model is outstanding due to more required concept selection steps, but initial results already show that a highly automated system would not be a good fit.
