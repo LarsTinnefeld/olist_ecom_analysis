@@ -91,4 +91,6 @@ The business is growing and the day-to-day volume is fluctuating very dynamicall
 
 **What does the prediction say about the business in two years?**
 
+![prediction](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Linear%20regression%20design.png?raw=true)
+
 The prognosis is predicting with some error margin that in beginning 2020 in average 500 units per day will be sold.
