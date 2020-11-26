@@ -56,9 +56,9 @@ For the current analysis following data files are used:
 
 ## Data preparation <a name="preparation"></a>
 The notebook "olist_analysis" contains a complete procedure of data checks and cleaning. Applied verification methods:
-- Missing data check
-- Duplicate records
-- Data formats
+- Missing data check (3% missing data were substituted with forward fill, 0.05% of missing SKU dimensions were substitured with mean)
+- Duplicate records: No duplicates found
+- Data formats: Date columns were converted to datetime format
 
 Following data tables were constructed to perform the analysis:
 - df_order_items_consolidated (merging of the three original tables)
