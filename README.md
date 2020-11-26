@@ -72,8 +72,14 @@ For the predictive analysis part linear regression was applied. The date variabl
 ## Evaluation and conclusion <a name="evaluation"></a>
 A complete evaluation report is contained in the linked blog post *[here](https://larstinnefeld.medium.com/an-e-commerce-data-story-e53eb8e16f90)*.
 
-### Main conclusions
-Important correlations and patterns:
+### Main conclusion summary
+**Are there correlations and patterns in the data which are important for the concept?**
+![top_categories](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Olist_top_categories.PNG?raw=true)
+The list contains the top selling categories. The focus can be set on these when optimizing the logistic chain.
 
+![Shipping_metrics](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Scatterplot%20shipping%20range.png?raw=true)
+There is a potential opportunity for including an express ship process in the future logistic concept. The chart shows some relation between shipping duration spread and product price.
+
+**What is the general business trend?**
 
 The business is growing and the day-to-day volume is fluctuating very dynamically. Black Friday is a major event for the business. The prognosis is predicting with some error margin that in beginning 2020 in average 500 units per day will be sold. "Health and Beauty" and "Gift Watches" are key categories in the product mix. Delivery times for expensive products seem to be somewhat important for shopkeepers and customers. A final conclusion about the extension of the business model is outstanding due to more required concept selection steps, but initial results already show that a highly automated system would not be a good fit.
