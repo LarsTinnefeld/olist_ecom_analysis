@@ -12,6 +12,7 @@
 5. [Data preparation](#preparation)
 6. [Data Modelling](#modelling)
 7. [Evaluation](#evaluation)
+8. [References and links](#references)
 
 ## About Olist's <a name="business_understanding"></a>
 Olist is for everyone "who wants to sell more and better" and "who wants to attract new customers". As an business in the e-commerce sector, Olist is an online selling platform for small businesses. On Olist's sign-up page a range of shopkeeper profiles is listed which fits the business model. A strong focus is on attracting more customers through a larger market presence. A user satisfaction report helps to address areas of attention. Olist therefore acts as a service provider which is managing the sales process for the shopkeepers. Olist doen't own any of the offered products and is also not managing shipping or inventory.
@@ -94,3 +95,8 @@ The business is growing and the day-to-day volume is fluctuating very dynamicall
 ![prediction](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Linear%20regression%20design.png?raw=true)
 
 The prognosis is predicting with some error margin that in beginning 2020 in average 500 units per day will be sold.
+
+## References and links <a name="references"></a>
+
+**[Blog post](https://larstinnefeld.medium.com/an-e-commerce-data-story-e53eb8e16f90)**
+**[Data in Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce)**
