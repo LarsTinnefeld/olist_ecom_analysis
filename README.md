@@ -99,4 +99,5 @@ The prognosis is predicting with some error margin that in beginning 2020 in ave
 ## References and links <a name="references"></a>
 
 **[Blog post](https://larstinnefeld.medium.com/an-e-commerce-data-story-e53eb8e16f90)**
+
 **[Data in Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce)**
