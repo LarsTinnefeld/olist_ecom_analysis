@@ -5,7 +5,7 @@
 ![portrait](https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
 
 ## Table of content
-1. [About Olist's](#business_understanding)
+1. [About Olist's (Business understanding)](#business_understanding)
 2. [Business objectives](#objectives)
 3. [Approach](#approach)
 4. [Data](#data)
