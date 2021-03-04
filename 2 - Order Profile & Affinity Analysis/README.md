@@ -120,7 +120,13 @@ The notebook "olist_order_profile" contains a complete procedure of data checks 
 ## Exploratory Data Analysis <a name="eda"></a>
 Goal: getting insights around order composition and customer buying habits.
 
-Which customer ordered the most procucts?
+Top customers:
+![Top customers](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_customers2.png?raw=true)
 
+Top categories:
+![Top categories](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_categories.png?raw=true)
+
+Order profile:
+![Top categories](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Order_profile.png?raw=true)
 
 
