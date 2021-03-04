@@ -11,7 +11,9 @@ An order profile analysis of Olist's dataset
 5. [Data preparation](#preparation)
 6. [Exploratory data analysis](#eda)
 7. [Order profile analysis](#order_analysis)
-8. [References and links](#references)
+8. [Affinity Analysis](#affinity)
+9. [Conclusion](#conclusion)
+10. [References and links](#references)
 
 ## Order Profile Analysis <a name="business_understanding"></a>
 Gaining an understanding about key metrtrics, correlations and patterns of the business is one of the most important steps in developing a successcul warehouse- and logistic concept. Ecommerce proves to be a very challenging business field in that aspect thanks to the dynamics and often unpredictable day-to-day developments. There is a range of "traditional" analysis outputs which provide an experienced logistics specialist with insights into the business: Pareto diagram, ABC classification, XYZ classification, Units-per-order distribution, Lines-per-order distribution, category breakdown. These are important metrics because they directly impact warehouse concept and sizing. Beside this, it is in many cases useful to understand the data in a bigger context, often including the characteristics of users and their shopping choices. "Market Baset Analysis" and "Product Correlation" help to disclose information in this aspect and support experts to make better decisions.
@@ -134,10 +136,9 @@ There are 73 product categories in which the first third represent the majority 
 
 **Matrix factorization to find category similarities**
 
-Matrix factorization is used in a small function with the goal to calculate distance (similarity) between categories. The method is based on comparing all ordered product categories in an order to all other orders. The greater the overlap between the orders the greater the similarity.
+Matrix factorization is used in a small function with the goal to calculate distance (similarity) between categories. The method is based on comparing all ordered product categories in an order to all other orders. The greater the overlap between the orders the greater the similarity. This method is also used in recommender functions to identify similar customers based on the shopping history.
 
-
-
+![Similar categories](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Similar_categories.PNG?raw=true)
 
 ## Order profile analysis <a name="order_analysis"></a>
 Question to answer:
@@ -167,11 +168,29 @@ The ABC classes explain how frequently an item was picked in the observed time p
 2) There was a promotion event for these products
 3) These SKUs were a sold out batch without re-ordering
 
-**Conclusion**
+## Affinity analysis <a name="affinity"></a>
+Question to answer:
 
-**What conclusions can we draw from the order- and SKU-profile?**
+**Can we predict buying behaviour between articles in one order (association)?**
 
-**Impacts of Olist business model on inventory and fullfillment process**
+![affinity](https://miro.medium.com/max/1067/1*--iUPe_DtzKdongjqZ2lOg.png)
+
+*Source: A Gentle Introduction on Market Basket Analysis — Association Rules (Susan Li)*
+
+Due to the very small order sizes the method is first applied to the product categoy. A filter was applied to only extract the orders which contained more than one product. These orders were then converted to an order-category matrix, which was in turn than converted into the list form the `apyori` model is using as input.
+
+**Result:**
+
+Under the best conditions we only find 11 relations. This is not a lot and not a base to deepen the efforts to extract information with this method.
+
+## Conclusions <a name="conclusion"></a>
+
+**- What conclusions can we draw from order- and SKU-profile?**
+
+
+**- Impacts of Olist's business model on inventory and fullfillment process**
+
+**- Can we predict buying behaviour between articles (association)?**
 
 - Orders sizes are very small: SIO is 79%, MLO is 93%
 - The parato curve is steep, in the range of 75/20 to 80/20, which means a pronounced defferentiation between fast- and slow movers
