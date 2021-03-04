@@ -50,7 +50,7 @@ For the current analysis following data files are used:
 - olist_customers_dataset.csv
 - olist_products_dataset.csv
 
-`df_orders_consolidated.csv`: Data table which contains all articles
+`df_orders_consolidated.csv`: Data table with order which was generated in the previous analysis
 
 | # |  Column | Non-Null Count | Dtype | Content |
 | --- | --- | --- | --- | --- |
@@ -86,6 +86,28 @@ For the current analysis following data files are used:
 | 29 | order_line_cube_in_ltr | 102425 | float64 | Volume (cube) of order line in liters |
 | 30 | price_round | 102425 | float64 | Rounded product price |
 | 31 | customer_unique_id | 102425 | float64 | Unique customer identification |
+
+`olist_customers_dataset.csv`: Lookup table which contains all customers
+
+| # |  Column | Non-Null Count | Dtype | Content |
+| --- | --- | --- | --- | --- |
+| 0 | customer_id | 99441 | object | Customer key for referencing or order table |
+| 1 | customer_unique_id | 99441 | object | Unique customer identifier |
+| 2 | customer_zip_code_prefix | 99441 | int64 | Customer zip code  |
+| 3 | customer_city | 99441 | object | Customer city |
+| 4 | customer_state | 99441 | object | Customer state |
+
+
+`olist_customers_dataset.csv`: Lookup table which contains all customers
+
+| # |  Column | Non-Null Count | Dtype | Content |
+| --- | --- | --- | --- | --- |
+| 0 | customer_id | 99441 | object | Customer key for referencing or order table |
+| 1 | customer_unique_id | 99441 | object | Unique customer identifier |
+| 2 | customer_zip_code_prefix | 99441 | int64 | Customer zip code  |
+| 3 | customer_city | 99441 | object | Customer city |
+| 4 | customer_state | 99441 | object | Customer state |
+
 
 
 ## Data preparation <a name="preparation"></a>
