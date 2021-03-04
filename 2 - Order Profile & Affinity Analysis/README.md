@@ -10,7 +10,7 @@ An order profile analysis of Olist's dataset
 4. [Data](#data)
 5. [Data preparation](#preparation)
 6. [Exploratory data analysis](#eda)
-7. [Evaluation](#evaluation)
+7. [Order profile analysis](#order_analysis)
 8. [References and links](#references)
 
 ## Order Profile Analysis <a name="business_understanding"></a>
@@ -120,13 +120,44 @@ The notebook "olist_order_profile" contains a complete procedure of data checks 
 ## Exploratory Data Analysis <a name="eda"></a>
 Goal: getting insights around order composition and customer buying habits.
 
-Top customers:
+**Top customers:**
+
 ![Top customers](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_customers2.png?raw=true)
 
-Top categories:
+There are a few customers which come back to place orders again but given the large range of customers overall and average user is only placing a small amount or orders.
+
+**Top categories:**
+
 ![Top categories](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_categories.png?raw=true)
 
-Order profile:
-![Top categories](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Order_profile.png?raw=true)
+There are 73 product categories in which the first third represent the majority of the order volume.
+
+## Order profile analysis <a name="order_analysis"></a>
+Question to answer:
+
+** What conclusions can we draw from the order- and SKU-profile? **
+
+** Impacts of Olist business model on inventory and fullfillment process **
+
+**Order profile:**
+
+![Order profile](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Order_profile.png?raw=true)
+
+The orders are generally small, as expected for e-commerce. Very few orders have more than one SKU. This already tells that an Market Basket Analysis will not produce a lot of results, if any. 79% SIO (single-item-orders), 93% SLO (single-line-orders).
+
+**Pareto chart:**
+
+![Pareto](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Pareto_revenue.png?raw=true)
+
+The pareto chart shows almost the typically expected 80/20 profile. That means, there is a good distinction between the product's velocities. Under under circumstances this would be a base for a clever product allocation to different pick methods and technilogies in a warehouse.
+
+**SKU classification:**
+
+![Pareto](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/SKU_classes.png?raw=true)
+
+The ABC classes explain how frequently an item was picked in the observed time period. It shows that that there is no SKU ranked as X-mover and only some very few as Y. This is an extreme instance and shows that the SKUs are in general very infrequently picked. Even the faster moving SKUs are very infrequently sold which can mean a range of things:
+1) That product is highly seasonal
+2) There was a promotion event for these products
+3) These SKUs were a sold out batch without re-ordering
 
 
