@@ -9,7 +9,7 @@ An order profile analysis of Olist's dataset
 3. [Approach](#approach)
 4. [Data](#data)
 5. [Data preparation](#preparation)
-6. [Data Modelling](#modelling)
+6. [Exploratory data analysis](#eda)
 7. [Evaluation](#evaluation)
 8. [References and links](#references)
 
@@ -102,26 +102,25 @@ For the current analysis following data files are used:
 
 | # |  Column | Non-Null Count | Dtype | Content |
 | --- | --- | --- | --- | --- |
-| 0 | customer_id | 99441 | object | Customer key for referencing or order table |
-| 1 | customer_unique_id | 99441 | object | Unique customer identifier |
-| 2 | customer_zip_code_prefix | 99441 | int64 | Customer zip code  |
-| 3 | customer_city | 99441 | object | Customer city |
-| 4 | customer_state | 99441 | object | Customer state |
-
-
+| 0 | product_id | 99441 | object | Customer key for referencing or order table |
+| 1 | product_category_name | 100965 | object | Product category |
+| 2 | product_name_lenght | 100965 | float64 | Length of product name |
+| 3 | product_description_lenght | 100965 | float64 | Product name |
+| 4 | product_photos_qty | 100965 | float64 | Number of product photos |
+| 5 | product_weight_g | 102425 | float64 | Product weight in gramms |
+| 6 | product_length_cm | 102425 | float64 | Product length in cm |
+| 7 | product_height_cm | 102425 | float64 | Prodcut height in cm |
+| 8 | product_width_cm | 102425 | float64 | Prodcut width in cm |
 
 ## Data preparation <a name="preparation"></a>
-The notebook "olist_analysis" contains a complete procedure of data checks and cleaning. Applied verification methods:
-- Missing data check: 3% missing data were substituted with forward fill, 0.05% of missing SKU dimensions were substitured with mean
-- Duplicate records: No duplicates found
+The notebook "olist_order_profile" contains a complete procedure of data checks and cleaning. Applied verification methods:
 - Data formats: Date columns were converted to datetime format
+- Added unique customer id to order table
 
-Following data tables were constructed to perform the analysis:
-- df_order_items_consolidated (merging of the three original tables)
-- df_orders_daily (grouping by date)
+## Exploratory Data Analysis <a name="eda"></a>
+Goal: getting insights around order composition and customer buying habits.
 
-
-
+Which customer ordered the most procucts?
 
 
 
