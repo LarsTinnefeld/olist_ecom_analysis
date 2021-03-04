@@ -132,6 +132,13 @@ There are a few customers which come back to place orders again but given the la
 
 There are 73 product categories in which the first third represent the majority of the order volume.
 
+**Matrix factorization to find category similarities**
+
+Matrix factorization is used in a small function with the goal to calculate distance (similarity) between categories. The method is based on comparing all ordered product categories in an order to all other orders. The greater the overlap between the orders the greater the similarity.
+
+
+
+
 ## Order profile analysis <a name="order_analysis"></a>
 Question to answer:
 
@@ -159,5 +166,17 @@ The ABC classes explain how frequently an item was picked in the observed time p
 1) That product is highly seasonal
 2) There was a promotion event for these products
 3) These SKUs were a sold out batch without re-ordering
+
+**Conclusion**
+
+**What conclusions can we draw from the order- and SKU-profile?**
+
+**Impacts of Olist business model on inventory and fullfillment process**
+
+- Orders sizes are very small: SIO is 79%, MLO is 93%
+- The parato curve is steep, in the range of 75/20 to 80/20, which means a pronounced defferentiation between fast- and slow movers
+- SKUs are picked extremely infrequently, with almost 100% Z-movers
+- With this XYZ-ABC profile any inventory would not make much sense
+- Because of the infrequent picks, batching SIOs would not work
 
 
