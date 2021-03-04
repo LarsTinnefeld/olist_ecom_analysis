@@ -181,21 +181,32 @@ Due to the very small order sizes the method is first applied to the product cat
 
 **Result:**
 
-Under the best conditions we only find 11 relations. This is not a lot and not a base to deepen the efforts to extract information with this method.
+We only found 11 relationships. On top, we only worked with categories. Going one level more detailed (products) would be most likely result in no findings. The small order sizes and the low pick frequency which we could observe in the order profile is also show their impact in this Affinity Analysis.
+
+There is no association between the products. Reasons:
+- Very low pick frequency
+- Large product range
+- Small orders
+
+This is not a lot and not a good base to deepen the efforts to extract information with this method.
 
 ## Conclusions <a name="conclusion"></a>
 
 **- What conclusions can we draw from order- and SKU-profile?**
-
-
-**- Impacts of Olist's business model on inventory and fullfillment process**
-
-**- Can we predict buying behaviour between articles (association)?**
-
 - Orders sizes are very small: SIO is 79%, MLO is 93%
 - The parato curve is steep, in the range of 75/20 to 80/20, which means a pronounced defferentiation between fast- and slow movers
 - SKUs are picked extremely infrequently, with almost 100% Z-movers
+
+**- Impacts of Olist's business model on inventory and fullfillment process**
 - With this XYZ-ABC profile any inventory would not make much sense
 - Because of the infrequent picks, batching SIOs would not work
 
+**- Can we predict buying behaviour between articles (association)?**
+- We can calculate similarity between product classes based on appearance in historical order data
+- Because of the small order sizes, a large product range and a very low pick frequency we can not draw good conclusions about product assiciation.
 
+## Conclusions <a name="conclusion"></a>
+
+**[Data in Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce)**
+
+Add link for blog post here
