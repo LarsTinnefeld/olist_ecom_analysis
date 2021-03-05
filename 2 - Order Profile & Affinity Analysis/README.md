@@ -1,6 +1,8 @@
 # Olist e-commerce order profile analysis
 An order profile analysis of Olist's dataset
 
+**Lars Tinnefeld**, 2021-03-27
+
 ![Hero_picture](https://cdn.pixabay.com/photo/2016/03/23/07/57/receipt-1274307_960_720.jpg)
 
 ## Table of content
@@ -143,9 +145,9 @@ Matrix factorization is used in a small function with the goal to calculate dist
 ## Order profile analysis <a name="order_analysis"></a>
 Question to answer:
 
-** What conclusions can we draw from the order- and SKU-profile? **
+**What conclusions can we draw from the order- and SKU-profile?**
 
-** Impacts of Olist business model on inventory and fullfillment process **
+**Impacts of Olist business model on inventory and fullfillment process**
 
 **Order profile:**
 
