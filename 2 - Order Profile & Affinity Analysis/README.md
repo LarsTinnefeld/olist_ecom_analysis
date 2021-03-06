@@ -38,6 +38,14 @@ Following steps will be followed:
 - Order- and SKU profile analysis
 - Affinity analysis
 
+### libraries:
+- python
+- numpy
+- pandas
+- datetime
+- matplotlib
+- seaborn
+- apyori
 
 ## Data <a name="data"></a>
 The provided data set consists of historical order data from 2016 to 2018 and contains 100,000 orders. There are 8 files available. The below data model displays high level the references between these data- and lookup tables. The data was generously provided by Olist under the license CC BY-NC-SA 4.0 and can be found *[here](https://www.kaggle.com/olistbr/brazilian-ecommerce)* in Kaggle.
