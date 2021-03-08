@@ -21,5 +21,39 @@ An order profile analysis of Olist's dataset
 11. [Conclusion](#conclusion)
 12. [References and links](#references)
 
-## Order Profile Analysis <a name="business_understanding"></a>
+## Clustering <a name="business_understanding"></a>
+...
+
+## Objectives <a name="objectives"></a>
+The analysis in this repository will follow above mentioned pattern in order to answer a set of questions around order- and SKU profile:
+
+**- What conclusions can we draw from order- and SKU-profile?**
+
+**- Impacts of Olist's business model on inventory and fullfillment process**
+
+**- Can we predict buying behaviour between articles (association)?**
+
+
+## Approach <a name="approach"></a>
+Following steps will be followed:
+
+- Data import and wranglig if required
+- Exploratory data analyis, aimed at products and orders
+- Order- and SKU profile analysis
+- Affinity analysis
+
+### libraries:
+- python
+- numpy
+- pandas
+- datetime
+- matplotlib
+- seaborn
+- apyori
+
+## Data <a name="data"></a>
+The provided data set consists of historical order data from 2016 to 2018 and contains 100,000 orders. There are 8 files available. The below data model displays high level the references between these data- and lookup tables. The data was generously provided by Olist under the license CC BY-NC-SA 4.0 and can be found *[here](https://www.kaggle.com/olistbr/brazilian-ecommerce)* in Kaggle.
+
+![Data Structure](https://i.imgur.com/HRhd2Y0.png)
+*Data model as provided in Kaggle*
 
