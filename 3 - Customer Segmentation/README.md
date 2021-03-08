@@ -8,7 +8,7 @@ An order profile analysis of Olist's dataset
 *Image: [CHUTTERSNAP](https://unsplash.com/@chuttersnap) on Unsplash*
 
 ## Table of content
-1. [Clustering data](#business_understanding)
+1. [Market Segmentation](#business_understanding)
 2. [Objectives](#objectives)
 3. [Approach](#approach)
 4. [Data](#data)
