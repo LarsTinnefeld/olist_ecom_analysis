@@ -21,7 +21,7 @@ An order profile analysis of Olist's dataset
 11. [Conclusion](#conclusion)
 12. [References and links](#references)
 
-## Clustering <a name="business_understanding"></a>
+## Market Segmentation <a name="business_understanding"></a>
 ...
 
 ## Objectives <a name="objectives"></a>
