@@ -57,3 +57,26 @@ The provided data set consists of historical order data from 2016 to 2018 and co
 ![Data Structure](https://i.imgur.com/HRhd2Y0.png)
 *Data model as provided in Kaggle*
 
+
+There is also a prepared dataset (df_orders_consolidated.csv) available as an output of the initial Olist E-commerce Data Analysis:
+
+![ERD1](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Olist-Analysis_1_New_tables.PNG?raw=true)
+
+For the current analysis following data files are used:
+...
+
+## Data preparation <a name="preparation"></a>
+The notebook "olist_order_profile" contains a complete procedure of data checks and cleaning. Applied verification methods:
+- Data formats: Date columns were converted to datetime format
+...
+
+
+## Exploratory Data Analysis <a name="eda"></a>
+Goal: The focus is on getting an understanding about the customer's buying habits and their locations.
+
+**Where are the customers from?**
+
+![Top cities](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_50_cities.png?raw=true)
+
+![Top states](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_50_states.png?raw=true)
+
