@@ -10,16 +10,15 @@ An order profile analysis of Olist's dataset
 ## Table of content
 1. [Market Segmentation](#business_understanding)
 2. [Objectives](#objectives)
-3. [Approach](#approach)
-4. [Data](#data)
-5. [Data preparation](#preparation)
-6. [Exploratory data analysis](#eda)
-7. [Customer Segmentation](#segmentation)
-8. [Geodemographic Segmentation](#geosegmentation)
-9. [RFM Analysis](#rfm)
-10. [K Means Clustering](#kmeans)
-11. [Conclusion](#conclusion)
-12. [References and links](#references)
+3. [Data](#data)
+4. [Data preparation](#preparation)
+5. [Exploratory data analysis](#eda)
+6. [Customer Segmentation](#segmentation)
+7. [Geodemographic Segmentation](#geosegmentation)
+8. [RFM Analysis](#rfm)
+9. [K Means Clustering](#kmeans)
+10. [Conclusion](#conclusion)
+11. [References and links](#references)
 
 ## Market Segmentation <a name="business_understanding"></a>
 For the decision making process for the business development in general, and potentially for the logistic strategy specifically,  an understanding of the customer behaviour and geographic conditions need to be analyzed. By extracting commonly shared demographic- and geodemographic characteristics methods are used to divide customers into groups (segments). This allows to apply tailor-made strategies that can target specific customer segments in a more effective way.
@@ -34,14 +33,6 @@ The analysis in this repository is looking into the customer's buying behaviour 
 - **Strategy to target specific customer segments**
 
 - **What are the conclusions for the logistic process?**
-
-## Approach <a name="approach"></a>
-Following steps will be followed:
-
-- Data import and wranglig if required
-- Exploratory data analyis, aimed at products and orders
-- Order- and SKU profile analysis
-- Affinity analysis
 
 ### libraries:
 - python
