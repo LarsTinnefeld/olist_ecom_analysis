@@ -1,4 +1,4 @@
-# Olist Business Development Analysis
+# Business Development Analysis
 
 **Lars Tinnefeld**
 
