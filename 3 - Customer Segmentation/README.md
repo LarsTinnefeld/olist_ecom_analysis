@@ -22,17 +22,18 @@ An order profile analysis of Olist's dataset
 12. [References and links](#references)
 
 ## Market Segmentation <a name="business_understanding"></a>
-...
+For the decision making process for the business development in general, and potentially on the logistic strategy specifically,  an understanding of the customer behaviour and geographic conditions need to be analyzed. By extracting commonly shared demographic- and geodemographic characteristics methods are used to divide customers into groups (segments). This allows to apply tailor-made strategies that can target specific customer segments in a more effective way.
 
 ## Objectives <a name="objectives"></a>
-The analysis in this repository will follow above mentioned pattern in order to answer a set of questions around order- and SKU profile:
+The analysis in this repository is looking into the customer's buying behavior as well as their locations. By doing so a few quesions will be answered:
 
-**- What conclusions can we draw from order- and SKU-profile?**
+- **Demographic relationship between customers**
 
-**- Impacts of Olist's business model on inventory and fullfillment process**
+- **Geographic relationship in view of customer characteristics**
 
-**- Can we predict buying behaviour between articles (association)?**
+- **Strategy to target specific customer segments**
 
+- **What are the conclusions for the logistic process?**
 
 ## Approach <a name="approach"></a>
 Following steps will be followed:
