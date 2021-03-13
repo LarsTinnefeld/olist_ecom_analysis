@@ -20,9 +20,11 @@ An order profile analysis of Olist's dataset
 10. [Conclusion](#conclusion)
 11. [References and links](#references)
 
+---
 ## Market Segmentation <a name="business_understanding"></a>
 For the decision making process for the business development in general, and potentially for the logistic strategy specifically,  an understanding of the customer behaviour and geographic conditions need to be analyzed. By extracting commonly shared demographic- and geodemographic characteristics methods are used to divide customers into groups (segments). This allows to apply tailor-made strategies that can target specific customer segments in a more effective way.
 
+---
 ## Objectives <a name="objectives"></a>
 The analysis in this repository is looking into the customer's buying behaviour as well as their locations. By doing so a few quesions will be answered:
 
@@ -43,6 +45,7 @@ The analysis in this repository is looking into the customer's buying behaviour 
 - seaborn
 - apyori
 
+---
 ## Data <a name="data"></a>
 The provided data set consists of historical order data from 2016 to 2018 and contains 100,000 orders. There are 8 files available. The below data model displays high level the references between these data- and lookup tables. The data was generously provided by Olist under the license CC BY-NC-SA 4.0 and can be found *[here](https://www.kaggle.com/olistbr/brazilian-ecommerce)* in Kaggle.
 
@@ -120,12 +123,15 @@ For the current analysis following data files are used:
 | 3 | geolocation_city | 1000163 | object | City name |
 | 4 | geolocation_state | 1000163 | object | State name |
 
+---
 ## Data preparation <a name="preparation"></a>
 The notebooks contain a complete procedure of data checks and cleaning. Applied verification methods:
 - Data formats: Date columns were converted to datetime format
 - Check for nan values and duplicates
 - Zip code - coordinates (latitude and longitude) are not unique. An average coordinate was developed to have a defined lookup value when matching with customer (key label is zip code prefix).
+- For the customer segmentation analysis only orders with status `delivered` were filtered
 
+---
 ## Exploratory Data Analysis <a name="eda"></a>
 Goal: The focus is on getting an understanding about the customer's buying habits and their locations.
 
@@ -135,10 +141,43 @@ Customers live in 4,119 unique cities in 27 unique states.
 
 ![Top cities](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_50_cities.png?raw=true)
 
-![Top states](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_50_states.png?raw=true)
+![Top states](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_states.png?raw=true)
 
 The imbalanced distribution accross cities and states need to be kept in mind when drawing conclusions of statistical nature.
 
-![Top states](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_50_zip_codes.png?raw=true)
+![Top zip codes](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_50_zip_codes.png?raw=true)
 
-There are 14,994 unique zip code prefix's.
+There are 14,994 unique zip code prefixes.
+
+**When did customers join?**
+
+The date of the first order is assumed to be the user sign-up date.
+
+![Signup cum](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/New_customers_cumulative.png?raw=true)
+
+![Signup dly](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/New_customers_daily.png?raw=true)
+
+Many new cutomers appeared on Black Friday. It is interesting to see that the impact is not very pronounced when looking at the cumulative customer count for the total time span. Overall, the increase of customers has an upward trend. The trendline is slightly exponential, which means that the growth is accelerating slowly.
+
+---
+## Customer segmentation <a name="segmentation"></a>
+**Demographic relationship between customers**
+
+The segmentation will classify customers based on thre metrics:
+- Date since last order was placed (`Recency`)
+- Total money spent
+
+The Recency segments are defined by dividing the total time period (oldest order to the newest order) in four periods. In that way we get the following classes:
+- Inactive
+- Cold
+- Hot
+- Active
+
+In a second step the total purchase amount of a customer was sorted to either, higher than the median total purchase amount or lower. Doing so produces two classes:
+- Low
+- High
+
+The two classes were combined for each customer to a sub-segment. The disctibution can be made visible in a tree map or waffle chart. The disctibution can be reviewed accoring a range of different KPIs.
+
+![Waffle revenue](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Waffle_revenue_subsegment.png?raw=true)
+
