@@ -1,4 +1,4 @@
-# E-commerce Trends Analysis
+# Trends Analysis
 
 **Lars Tinnefeld**, 2020-11-23
 
