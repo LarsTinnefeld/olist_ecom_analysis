@@ -42,7 +42,7 @@ class Olist_analysis():
         data_revenue = dict(round(
             dat.groupby(group).agg({metric: agg}))[metric])
 
-        fig = plt.figure(
+        plt.figure(
             FigureClass=Waffle,
             rows=5,
             columns=10,
