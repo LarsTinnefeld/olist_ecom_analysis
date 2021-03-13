@@ -16,7 +16,7 @@ An order profile analysis of Olist's dataset
 6. [Customer Segmentation](#segmentation)
 7. [Geodemographic Segmentation](#geosegmentation)
 8. [RFM Analysis](#rfm)
-9. [K Means Clustering](#kmeans)
+9. [K-Means Clustering](#kmeans)
 10. [Conclusion](#conclusion)
 11. [References and links](#references)
 
@@ -250,5 +250,64 @@ Above chart shows the average purchase value distribution, averaged over zip cod
 ## RFM Analysis <a name="rfm"></a>
 **Strategy to target specific customer segments**
 
-The RFM analysis is another way to segment customers in order to develop marketing strategies. The three used metrics `Recency`, `Frequency` amd `Monetary` lead to a combined individual classification. With this classification also an appropriate proposed marketing strategy will be developed. The number of the sub-segments which is created in this process is arbitrary and might not be in line with an underlying clustering as it appears in the data. To address this, also K-Means Clustering is applied to extract clusters from non-labeled data. The features used as inputs are the same as used for the RFM analysis.
+The RFM analysis is another way to segment customers in order to develop marketing strategies. The three used metrics `Recency`, `Frequency` amd `Monetary` lead to a combined individual classification. With this classification also an appropriate proposed marketing strategy will be developed. The number of the sub-segments which is created in this process is arbitrary and might not be in line with an underlying clustering as it appears in the data. To address this, also **K-Means Clustering** is applied to extract clusters from non-labeled data. The features used as inputs are the same as used for the RFM analysis.
 
+**Recency**
+
+Recency is the time duration from the last order to the reference date (last order date in data set in our case).
+
+![Recency](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Recency.png?raw=true)
+
+This chart makes sense because we see that there is the spike at round about 270 days before the reference day. That falls in the time period of the heavy Black Friday sales event where a lot of customers placed their latest order.
+
+![Frequency](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Frequency.png?raw=true)
+
+This is in line with what we have seen in the order profile analysis. There are many customers which only placed one order. As hinted in the initial "Business Trend Analysis", the error which many will likely get trapped is by simply applying `count of order_id` during grouping by customer_unique_id. Reason why this leads to a wrong result:
+- Quantity in the original order table is created by number of rows (order quantity = 4 means 4 rows of data)
+- Two SKUs (products) means two separate rows in the data table
+
+=> If we group by user "X" whose order contains procuct "A" with quantity 2 and procuct "B" with quantity 1, we will get 3 as count for this customer while in reality only one single order was placed.
+
+**Monetary**
+
+Monetary is basically the cumulated purchase amount a customer as spent.
+
+![Monetary](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Monetary.png?raw=true)
+
+As also seen in the "Market Trend Analysis", most of the purchases are on the low side (under 100) of the distribution.
+
+In step one of the RFM segment process each of the labels `Recency`, `Frequency` and `Monetary` is individually calculated per customer. In step two, two metrics are developed:
+1. RFM score: A calculated value with is the product of the three scores (R-score * F-score * M-score)
+2. RFM segment label: A number code with is created by combining the three scoces in a row (R-scoreF-scoreM-score)
+In step three filter conditions based on the two metrics for customer types are defined. The segmentation process in this analysis is dealing with 7 customer types:
+- Best Customer
+- Big Spender
+- Loyalist
+- Potential Loyalist
+- Hibernating
+- Almost Lost
+- Lost Customer
+
+![Waffle RFM](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Waffle_RFM.png?raw=true)
+
+Based on the observed customer behaviour the appropriate marketing strategy added to a summarized list.
+
+| RFM Segment |  Count | Recency | Frequency | Monetary | Marketing Strategy |
+| --- | --- | --- | --- | --- | --- | 
+| Best customer | 6,552 | 66.6 | 1.2 | 356.4 | Personalized communication, offer loyalty program, no promotional offers needed |
+| Big Spender | 5,715 | 172.9 | 1.1 | 346.3 | Make them feel valued and offer quality products, encourage to stick with brands |
+| Loyalist | 1,132 | 290.9 | 2.1 | 173.4 | Offer loyalty program |
+| Potential Loyalists | 51,001 | 184.2 | 1.0 | 136.7 | Recommend products and offer discounts |
+| Hibernating | 5,803 | 446.5 | 1.0 | 64.8 | Make great offers with big discounts |
+| Almost Lost | 11,581 | 360.9 | 1.0 | 88.8 | Try to win them with limited sales promotions |
+| Lost Customer | 11,574 | 367.6 | 1.0 | 29.0 | Do not spent much effort and money to win them |
+
+**Conclusion: Strategy to target specific customer segments**
+- The order frequency and order amounts are concentrated on the lower end. This is what we have repeatedly have seen before.
+- The biggest RFM segment is the group of `Potential Loyalists`. These are customers that need to be targeted with offers and discounts in order to make the business successful.
+- There is a good base of `Best Customers`, which is good news for the business.
+- Some effort needs to be spent to target `hibernating` customers and customers which are `almost lost`
+
+---
+## K-Means Clustering <a name="kmeans"></a>
+**Strategy to target specific customer segments**
