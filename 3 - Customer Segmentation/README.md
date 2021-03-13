@@ -139,4 +139,6 @@ Customers live in 4,119 unique cities in 27 unique states.
 
 The imbalanced distribution accross cities and states need to be kept in mind when drawing conclusions of statistical nature.
 
-![Top states](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_50_states.png?raw=true)
+![Top states](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Top_50_zip_codes.png?raw=true)
+
+There are 14,994 unique zip code prefix's.
