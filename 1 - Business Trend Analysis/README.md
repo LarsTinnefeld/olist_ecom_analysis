@@ -1,8 +1,10 @@
-# Olist e-commerce Initial Data Analysis
+# E-commerce Trends Analysis
 
 **Lars Tinnefeld**, 2020-11-23
 
-![portrait](https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)
+![portrait](https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80)
+
+*Image: [Jason Briscoe](https://unsplash.com/@jsnbrsc) on Unsplash*
 
 ## Table of content
 1. [About Olist's (Business understanding)](#business_understanding)
