@@ -311,3 +311,4 @@ Based on the observed customer behaviour the appropriate marketing strategy adde
 ---
 ## K-Means Clustering <a name="kmeans"></a>
 **Strategy to target specific customer segments**
+
