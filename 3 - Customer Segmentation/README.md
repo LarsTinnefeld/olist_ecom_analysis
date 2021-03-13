@@ -177,7 +177,25 @@ In a second step the total purchase amount of a customer was sorted to either, h
 - Low
 - High
 
-The two classes were combined for each customer to a sub-segment. The disctibution can be made visible in a tree map or waffle chart. The disctibution can be reviewed accoring a range of different KPIs.
+The two classes were combined for each customer to a sub-segment. The disctibution can be made visible in a tree map or waffle chart. The distribution can be reviewed accoring a range of different KPIs.
 
 ![Waffle revenue](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Waffle_revenue_subsegment.png?raw=true)
+
+![Waffle orders](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Waffle_orders_subsegment.png?raw=true)
+
+![Waffle customers](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Waffle_customers_subsegment.png?raw=true)
+
+**Conclusion: Demographic relationship between customers**
+- The strongest class of the 7 generated sub-segments is active customers with high spending, followed by "hot" customers which high spending, which is a good sign for the business.
+- Active customers with high and low spending placed the most orders, followed by "hot" customers.
+- Active customers are also the biggest groups in terms of head count.
+- Inactive customers represent in each chart the smallest proportion.
+
+---
+## Geodemographic Segmentation <a name="geosegmentation"></a>
+**Geographic relationship in view of customer characteristics**
+
+As mentioned above, there is no direct link between the coordinates (logitude, latitude) and the customer, because the zip code prefix is not uniquely assigned to one specific coordinate, but a range which fall into the same neighborhood. In this way many customers fall onto the same coordinate. To deal with this, for each coordinate the majority class was calculated. In that way the unique zip code prefix is shown on the map with the color of the majority segment.
+
+![Geo Subsegments](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_subsegments.PNG?raw=true)
 
