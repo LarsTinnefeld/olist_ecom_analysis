@@ -233,3 +233,22 @@ The following visualization shows the distribution on an individual level, indep
 
 ![Geo Avg purch](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_avgpurch_50_300.png?raw=true)
 
+By adjusting the lower- and uppder band of the color scale it can be seen that there's a general tendency of lower purchase prices in the South of Brazil while higher purchase prices are more existing in the North. The effect is not very pronounced but still visible. A significance test to statistically prove that this difference has sufficient evindence would need to be done in case this will be considered important in the final business case.
+
+The general disctribution of individual purchase values averaged accross zip codes:
+
+![Avg Purch Dist](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Avg_purchvalue_dist_zipcode.png?raw=true)
+
+Above chart shows the average purchase value distribution, averaged over zip codes. It shows a right-skewed distribution with the majority of the purchase values in the range of 100-120. This seems also to be in line with the general product cost distribution (reference EDA analysis in "Olist Business Trend Analysis").
+
+**Conclusion: Geographic relationship in view of customer characteristics**
+- There is not a clear correlation between location and customer sub-segment to observe
+- Some level of clustering in view of higher- and lower total reveny can be seen. This might for a big part be the effect of the group sizes.
+- There seem to be a slightly higher individual spending in the north of Brazil. A statistical test to validate this statement would need to be performed before basing any decisions on this.
+
+---
+## RFM Analysis <a name="rfm"></a>
+**Strategy to target specific customer segments**
+
+The RFM analysis is another way to segment customers in order to develop marketing strategies. The three used metrics `Recency`, `Frequency` amd `Monetary` lead to a combined individual classification. With this classification also an appropriate proposed marketing strategy will be developed. The number of the sub-segments which is created in this process is arbitrary and might not be in line with an underlying clustering as it appears in the data. To address this, also K-Means Clustering is applied to extract clusters from non-labeled data. The features used as inputs are the same as used for the RFM analysis.
+
