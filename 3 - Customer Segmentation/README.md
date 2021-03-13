@@ -1,4 +1,4 @@
-# Olist customer segmentation
+# Customer segmentation
 An order profile analysis of Olist's dataset
 
 **Lars Tinnefeld**, 2021-03-27
