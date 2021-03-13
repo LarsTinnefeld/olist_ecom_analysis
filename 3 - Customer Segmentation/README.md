@@ -197,5 +197,39 @@ The two classes were combined for each customer to a sub-segment. The disctibuti
 
 As mentioned above, there is no direct link between the coordinates (logitude, latitude) and the customer, because the zip code prefix is not uniquely assigned to one specific coordinate, but a range which fall into the same neighborhood. In this way many customers fall onto the same coordinate. To deal with this, for each coordinate the majority class was calculated. In that way the unique zip code prefix is shown on the map with the color of the majority segment.
 
+**Distribution of sub-sebments**
+
 ![Geo Subsegments](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_subsegments.PNG?raw=true)
+
+The bright red dots represent the `active-high` sub-segment. The color shifts to the cold- and inactive segments in the blue colors. With exception of a few pockets, there's a relatively evenly disctibution of the sub-segments accross the East of Brazil. As expected the highest concentration of customers is around major cities which can be explained by living density.
+
+**Distribution according total revenue**
+
+![Geo Revenue](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_totrev_200_1000.PNG?raw=true)
+
+![Geo Renenue Zoom](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_totrev_1000_3000_zoom.PNG?raw=true)
+
+The chart shows that there is some clustering between higher revenue and lower revenue areas, especially if setting the lower bound threshold higher. In neighborhoods of "Campinas" mostly higher total values while in the suburbs "Vila Amelia", "Brasilandia" and "Limao District" mostly lower values dominate. Rio de Janeiro, especially around the waterfront is mostly blue, while the north-western suburbs are mainly red.
+
+Even so we can identify areas of higher interest for the business, we need to be careful with the interpretation on an individual level:
+
+As seen in the EDA section, some zip codes have more customers assigned, so a high total value can be an effect of a big group size, and therefore a higher acumulated revenue.
+As a refresher, a box chart to display the statistical distribution of the group sizes:
+
+![Box chart zip code](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Zipcode_sizes_boxplot.png?raw=true)
+
+To have the real distribution of the total revenue accross zip codes from another perspective:
+
+![Dist revenue](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Tot_revenue_dist_zipcode.png?raw=true)
+
+A big majority of neighborhoods is on the low end of the distribution when looking at the summarized revenue. This can have different reasons:
+- Small group size
+- Low purchase values
+- a combination of the two
+
+**Distribution according average purchase value**
+
+The following visualization shows the distribution on an individual level, independent from the zize of a neighborhood.
+
+![Geo Avg purch](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_avgpurch_50_300.png?raw=true)
 
