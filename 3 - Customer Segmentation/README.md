@@ -312,3 +312,5 @@ Based on the observed customer behaviour the appropriate marketing strategy adde
 ## K-Means Clustering <a name="kmeans"></a>
 **Strategy to target specific customer segments**
 
+![RFM Scatter](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/RFM_scatter_3d.png?raw=true)
+
