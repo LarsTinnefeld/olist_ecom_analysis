@@ -25,7 +25,7 @@ An order profile analysis of Olist's dataset
 For the decision making process for the business development in general, and potentially for the logistic strategy specifically,  an understanding of the customer behaviour and geographic conditions need to be analyzed. By extracting commonly shared demographic- and geodemographic characteristics methods are used to divide customers into groups (segments). This allows to apply tailor-made strategies that can target specific customer segments in a more effective way.
 
 ## Objectives <a name="objectives"></a>
-The analysis in this repository is looking into the customer's buying behavior as well as their locations. By doing so a few quesions will be answered:
+The analysis in this repository is looking into the customer's buying behaviour as well as their locations. By doing so a few quesions will be answered:
 
 - **Demographic relationship between customers**
 
