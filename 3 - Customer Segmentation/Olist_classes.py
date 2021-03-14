@@ -1,6 +1,8 @@
 import pandas as pd
 from pywaffle import Waffle
 import matplotlib.pyplot as plt
+import plotly.graph_objs as go
+from plotly.offline import iplot
 
 
 class Olist_analysis():
@@ -53,3 +55,68 @@ class Olist_analysis():
             )
 
         plt.title(title_txt)
+
+    def plot_map(
+                df,
+                title,
+                lower_bound,
+                upper_bound,
+                metric,
+                maker_size=3,
+                sub_segment_y_n=False
+                ):
+        '''
+        Funtion for geographic data visualization of demographic metrics.
+
+        Input:
+        - df - dataframe with target feature
+            (metric; color-code field needed if sub_segment to visualize
+        - title - text to display as chart title
+        - lower_bound - lower threshold for color scale
+        - upper_bound - upper threshold for color scale
+        - metric - feature/ kpi metric to visualize
+        - sub_sement_y_n - boolean,
+            if "True": sub-segment will be visualized with color-code,
+            if no, color acording value
+        - marker_size - size of the marker
+
+        Outout:
+        - geographic data visualization
+
+        '''
+
+        if sub_segment_y_n is True:
+            dict_marker = dict(
+                size=maker_size,
+                color=df.color,
+                )
+        else:
+            dict_marker = dict(
+                size=maker_size,
+                color=df[metric],
+                showscale=True,
+                colorscale=[[0, 'blue'],
+                            [1, 'red']],
+                cmin=lower_bound,
+                cmax=upper_bound
+                )
+
+        data_geo = [go.Scattermapbox(
+            lon=df['geolocation_lng'],
+            lat=df['geolocation_lat'],
+            marker=dict_marker
+            )]
+
+        layout = dict(
+                title=title,
+                showlegend=False,
+                mapbox=dict(
+                    accesstoken='pk.eyJ1IjoiaG9vbmtlbmc5MyIsImEiOiJjam43cGhpNng2ZmpxM3JxY3Z4ODl2NWo3In0.SGRvJlToMtgRxw9ZWzPFrA',
+                    center=dict(lat=-23.5, lon=-46.6),
+                    bearing=10,
+                    pitch=0,
+                    zoom=2,
+                )
+            )
+        fig = dict(data=data_geo, layout=layout)
+        iplot(fig, validate=False)
