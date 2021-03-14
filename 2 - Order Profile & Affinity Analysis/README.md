@@ -8,14 +8,13 @@ A project of the Olist ecommerce business analysis
 ## Table of content
 1. [Order profile analysis](#business_understanding)
 2. [Objectives](#objectives)
-3. [Approach](#approach)
-4. [Data](#data)
-5. [Data preparation](#preparation)
-6. [Exploratory data analysis](#eda)
-7. [Order profile analysis](#order_analysis)
-8. [Affinity Analysis](#affinity)
-9. [Conclusion](#conclusion)
-10. [References and links](#references)
+3. [Data](#data)
+4. [Data preparation](#preparation)
+5. [Exploratory data analysis](#eda)
+6. [Order profile analysis](#order_analysis)
+7. [Affinity Analysis](#affinity)
+8. [Conclusion](#conclusion)
+9. [References and links](#references)
 
 ## Order Profile Analysis <a name="business_understanding"></a>
 Gaining an understanding about key metrtrics, correlations and patterns of the business is one of the most important steps in developing a successcul warehouse- and logistic concept. Ecommerce proves to be a very challenging business field in that aspect thanks to the dynamics and often unpredictable day-to-day developments. There is a range of "traditional" analysis outputs which provide an experienced logistics specialist with insights into the business: Pareto diagram, ABC classification, XYZ classification, Units-per-order distribution, Lines-per-order distribution, category breakdown. These are important metrics because they directly impact warehouse concept and sizing. Beside this, it is in many cases useful to understand the data in a bigger context, often including the characteristics of users and their shopping choices. "Market Baset Analysis" and "Product Correlation" help to disclose information in this aspect and support experts to make better decisions.
