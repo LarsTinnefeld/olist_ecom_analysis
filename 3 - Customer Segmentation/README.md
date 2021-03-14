@@ -351,10 +351,6 @@ The Big Spenders are a small portion of the customers, but the revenue impact is
 
 The relation of these clusters to each other can be visualized in the 3D scatter plot.
 
-![k-means scatter](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d.png?raw=true)
-
-Zooming in reveals where the K-Means algorithm has set the borders.
-
-![k-means scatter ziim](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d_zoom.png?raw=true)
+<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d.png?raw=true" width=450 height=270>   <img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d_zoom.png?raw=true" width=450 height=270>
 
 It now would be interesting to see if there is a geological relationship for these new classes.
