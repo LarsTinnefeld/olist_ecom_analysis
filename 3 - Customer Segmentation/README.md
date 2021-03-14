@@ -205,7 +205,11 @@ As mentioned above, there is no direct link between the coordinates (logitude, l
 
 ![Geo Subsegments](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_subsegments.PNG?raw=true)
 
-The bright red dots represent the `active-high` sub-segment. The color shifts to the cold- and inactive segments in the blue colors. With exception of a few pockets, there's a relatively evenly disctibution of the sub-segments accross the East of Brazil. As expected the highest concentration of customers is around major cities which can be explained by living density.
+The bright red dots represent the `active-high` sub-segment. The color shifts to the cold- and inactive segments in the blue colors. With exception of a few pockets, there's a relatively evenly disctibution of the sub-segments accross the East of Brazil.
+
+![Geo Subsegments](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_subsegments_biggest_zip.PNG?raw=true)
+
+As expected the highest concentration of customers is around major cities which can be explained by living density. The three biggest zip code prefix communities are around Rio de Janeiro.
 
 **Distribution according total revenue**
 
@@ -246,10 +250,10 @@ The general disctribution of individual purchase values averaged accross zip cod
 Above chart shows the average purchase value distribution, averaged over zip codes. It shows a right-skewed distribution with the majority of the purchase values in the range of 100-120. This seems also to be in line with the general product cost distribution (reference EDA analysis in "Olist Business Trend Analysis").
 
 **Conclusion: Geographic relationship in view of customer characteristics**
-- There is not a clear correlation between location and customer sub-segment to observe
-- Some level of clustering in view of higher- and lower total reveny can be seen. This might for a big part be the effect of the group sizes.
-- There seem to be a slightly higher individual spending in the north of Brazil. A statistical test to validate this statement would need to be performed before basing any decisions on this.
-- Regarding logistics, the domincance 
+- There is not a clear correlation between location and customer sub-segment.
+- Along the cost line of Rio de Janeiro are the biggest communities, which also falls in line with areas of high revenue. On the other hand, Sao Paulo has, by a big margin, the biggest overall customer count. This is an important conclusion for logistics and supply chain.
+- Some level of clustering in view of higher- and lower total reveny can be seen. This might for a big part be the effect of the group sizes. Geographical clusters of high revenue are "Campinas" and the south east of Rio de Janeiro.
+- There seem to be a slightly higher general purchase price in the north of Brazil when looking at the level of individual customers. A statistical test to validate this statement would need to be performed before basing any decisions on this.
 
 ---
 ## RFM Analysis <a name="rfm"></a>
@@ -309,7 +313,7 @@ Based on the observed customer behaviour the appropriate marketing strategy adde
 
 **Conclusion: Strategy to target specific customer segments**
 - The order frequency and order amounts are concentrated on the lower end. This is what we have repeatedly have seen before.
-- The biggest RFM segment is the group of `Potential Loyalists`. These are customers that need to be targeted with offers and discounts in order to make the business successful.
+- The biggest RFM segment is the group of `Potential Loyalists`. These are customers that need to be targeted with offers and discounts in order to make the business successful. If Olist manages to do a good job by winning the majority of this sub-segment it would make a big impact in growth.
 - There is a good base of `Best Customers`, which is good news for the business.
 - Some effort needs to be spent to target `hibernating` customers and customers which are `almost lost`
 
