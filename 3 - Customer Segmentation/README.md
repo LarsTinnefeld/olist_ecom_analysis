@@ -346,5 +346,14 @@ A range of 1 to 10 was clusters is used to calculate the resulting SSE.
 
 ![Elbow method](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Elbow_method.png?raw=true)
 
-The chart shows that a cluster number of 4 is a good choice.
+The chart shows that a cluster number of 4 is a good choice. When K-Means is applied for 4 clusters we can see where the borders were defined. The summary table and 3D scatter plot display the new picture.
+
+| K-Means Cluster |  Recency | Frequency | Monetary | Count | Customer Description |
+| --- | --- | --- | --- | --- | --- | 
+| 0 | 127.8 | 1.0 | 113.4 | 50,832 | New Low-Spenders |
+| 1 | 219.9 | 2.1 | 243.2 | 2,774 | Loyalists |
+| 2 | 387.2 | 1.0 | 114.1 | 37,566 | Hibernating Low-Spenders |
+| 3 | 237.1 | 1.0 | 1142.7 | 2,186 | Big Spenders |
+
+
 
