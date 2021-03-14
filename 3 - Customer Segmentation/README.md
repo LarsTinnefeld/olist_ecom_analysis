@@ -355,12 +355,16 @@ The chart shows that a cluster number of 4 is a good choice. When K-Means is app
 | 2 | 387.2 | 1.0 | 114.1 | 37,566 | Hibernating Low-Spenders |
 | 3 | 237.1 | 1.0 | 1142.7 | 2,186 | Big Spenders |
 
-<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_customers.png?raw=true" width=250 height=250>
-<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_revenue.png?raw=true" width=250 height=250>
+<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_customers.png?raw=true" width=300 height=300><img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_revenue.png?raw=true" width=300 height=300><img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_recency.png?raw=true" width=300 height=300>
 
-<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_recency.png?raw=true" width=200 height=200>
+The Big Spenders are a small portion of the customers, but the revenue impact is very high. It is essential to make these customers feel valued. Encourage them to stick with their brands. New Low Spenders are the biggest group but show a relatively small revenue. For the growth of the business it is important to spend great effort in these customers in order to turn them into Loyalists or Big Spenders.
+
+The relation of these clusters to each other can be visualized in the 3D scatter plot.
 
 ![k-means scatter](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d.png?raw=true)
 
+Zooming in reveals where the K-Means algorithm has set the borders.
+
 ![k-means scatter ziim](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d_zoom.png?raw=true)
+
 
