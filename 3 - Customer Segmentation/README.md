@@ -43,9 +43,12 @@ The analysis in this repository is looking into the customer's buying behaviour 
 - numpy
 - pandas
 - datetime
+- re
+- sklearn
 - matplotlib
 - seaborn
-- apyori
+- plotly
+- waffle
 
 ---
 ## Data <a name="data"></a>
@@ -53,7 +56,6 @@ The provided data set consists of historical order data from 2016 to 2018 and co
 
 ![Data Structure](https://i.imgur.com/HRhd2Y0.png)
 *Data model as provided in Kaggle*
-
 
 There is also a prepared dataset (df_orders_consolidated.csv) available as an output of the initial Olist E-commerce Data Analysis:
 
@@ -333,6 +335,10 @@ The Sum of Squared Errors (SSE) qantifies the confidence of the result.
 
 ![k_means_3](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/k_means_code_3.PNG?raw=true)
 
-The SSE in K-Means Clustering is depending on the number of selected clusters. The goal is to select a number of clusters that is as small as possible, but one that archives ...
+The SSE in K-Means Clustering is depending on the number of selected clusters. The goal is to select a number of clusters that is as small as possible, but one that still archives a significant improvemet if fitting the data. The process is known as "Elbow Method".
+
+A range of 1 to 10 was clusters is used to calculate the resulting SSE.
 
 ![Elbow](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Ellbow_method.png?raw=true)
+
+The chart shows that a cluster number of 4 is a good choice.
