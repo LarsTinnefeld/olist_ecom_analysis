@@ -22,7 +22,7 @@ A project of the Olist ecommerce business analysis
 
 ---
 ## Market Segmentation <a name="business_understanding"></a>
-For the decision making process for the business development in general, and potentially for the logistic strategy specifically,  an understanding of the customer behaviour and geographic conditions need to be analyzed. By extracting commonly shared demographic- and geodemographic characteristics methods are used to divide customers into groups (segments). This allows to apply tailor-made strategies that can target specific customer segments in a more effective way.
+For the decision making process in business development in general, and potentially for the logistic strategy specifically,  an understanding of the customer behaviour and geographic conditions need to be analyzed. By extracting commonly shared demographic- and geodemographic characteristics methods are used to divide customers into groups (segments). This allows to apply tailor-made strategies that can target specific customer segments in a more effective way.
 
 ---
 ## Objectives <a name="objectives"></a>
@@ -213,7 +213,7 @@ The bright red dots represent the `active-high` sub-segment. The color shifts to
 
 ![Geo Renenue Zoom](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_totrev_1000_3000_zoom.PNG?raw=true)
 
-The chart shows that there is some clustering between higher revenue and lower revenue areas, especially if setting the lower bound threshold higher. In neighborhoods of "Campinas" mostly higher total values while in the suburbs "Vila Amelia", "Brasilandia" and "Limao District" mostly lower values dominate. Rio de Janeiro, especially around the waterfront is mostly blue, while the north-western suburbs are mainly red.
+The chart shows that there is some clustering between higher revenue and lower revenue areas, especially if setting the lower bound threshold higher. In neighborhoods of "Campinas" mostly higher total values while in the suburbs "Vila Amelia", "Brasilandia" and "Limao District" mostly lower values dominate. Rio de Janeiro, especially around the waterfront is mostly red (high revenue), while the north-western suburbs are mainly blue (low revenue).
 
 Even so we can identify areas of higher interest for the business, we need to be careful with the interpretation on an individual level:
 
@@ -249,6 +249,7 @@ Above chart shows the average purchase value distribution, averaged over zip cod
 - There is not a clear correlation between location and customer sub-segment to observe
 - Some level of clustering in view of higher- and lower total reveny can be seen. This might for a big part be the effect of the group sizes.
 - There seem to be a slightly higher individual spending in the north of Brazil. A statistical test to validate this statement would need to be performed before basing any decisions on this.
+- Regarding logistics, the domincance 
 
 ---
 ## RFM Analysis <a name="rfm"></a>
@@ -339,6 +340,7 @@ The SSE in K-Means Clustering is depending on the number of selected clusters. T
 
 A range of 1 to 10 was clusters is used to calculate the resulting SSE.
 
+![Elbow method](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Elbow_method.png?raw=true)
 
 The chart shows that a cluster number of 4 is a good choice.
 
