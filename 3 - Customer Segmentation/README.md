@@ -346,7 +346,7 @@ A range of 1 to 10 was clusters is used to calculate the resulting SSE.
 
 ![Elbow method](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Elbow_method.png?raw=true)
 
-The chart shows that a cluster number of 4 is a good choice. When K-Means is applied for 4 clusters we can see where the borders were defined. The summary table and 3D scatter plot display the new picture.
+The chart shows that a cluster number of 4 is a good choice. When K-Means is applied for 4 clusters we can see where the borders were defined. The summary table and the pie charts below visualize the new clustering.
 
 | K-Means Cluster |  Recency | Frequency | Monetary | Count | Customer Description |
 | --- | --- | --- | --- | --- | --- | 
@@ -354,6 +354,11 @@ The chart shows that a cluster number of 4 is a good choice. When K-Means is app
 | 1 | 219.9 | 2.1 | 243.2 | 2,774 | Loyalists |
 | 2 | 387.2 | 1.0 | 114.1 | 37,566 | Hibernating Low-Spenders |
 | 3 | 237.1 | 1.0 | 1142.7 | 2,186 | Big Spenders |
+
+<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_customers.png?raw=true" width=250 height=250>
+<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_revenue.png?raw=true" width=250 height=250>
+
+<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/K_means_recency.png?raw=true" width=200 height=200>
 
 ![k-means scatter](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d.png?raw=true)
 
