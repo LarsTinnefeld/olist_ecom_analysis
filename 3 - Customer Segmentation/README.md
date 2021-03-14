@@ -354,3 +354,11 @@ The relation of these clusters to each other can be visualized in the 3D scatter
 <img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d.png?raw=true" width=450 height=270>   <img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d_zoom.png?raw=true" width=450 height=270>
 
 It now would be interesting to see if there is a geological relationship for these new classes.
+
+<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_kmeans_customers.PNG?raw=true">
+
+There is no general tendency to observe when looking at Brazil in total. Taking a closer look at the major cities reveals local clustering.
+
+<img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_kmeans_zoom.PNG?raw=true" width=300 height=154><img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_kmeans_saopaulo.PNG?raw=true" width=300 height=154><img src="https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Geo_kmeans_riodejaneira.PNG?raw=true" width=300 height=154>
+
+The color coding shows that a big portion of Sao Paulo's neighbohoods are `Hibernating Low-Spenders`. Compared to this, it appears that Rio de Janeiro has more `New Low-Spenders`. There is no clearly visible concentration of the important segment `Big Spenders` to see when scanning over Brazil.
