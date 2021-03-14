@@ -28,15 +28,6 @@ The analysis in this repository will follow above mentioned pattern in order to 
 
 **- Can we predict buying behaviour between articles (association)?**
 
-
-## Approach <a name="approach"></a>
-Following steps will be followed:
-
-- Data import and wranglig if required
-- Exploratory data analyis, aimed at products and orders
-- Order- and SKU profile analysis
-- Affinity analysis
-
 ### libraries:
 - python
 - numpy
