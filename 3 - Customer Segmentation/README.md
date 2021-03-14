@@ -342,3 +342,4 @@ A range of 1 to 10 was clusters is used to calculate the resulting SSE.
 ![Elbow](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Ellbow_method.png?raw=true)
 
 The chart shows that a cluster number of 4 is a good choice.
+
