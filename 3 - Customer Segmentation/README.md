@@ -355,5 +355,7 @@ The chart shows that a cluster number of 4 is a good choice. When K-Means is app
 | 2 | 387.2 | 1.0 | 114.1 | 37,566 | Hibernating Low-Spenders |
 | 3 | 237.1 | 1.0 | 1142.7 | 2,186 | Big Spenders |
 
+![k-means scatter](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d.png?raw=true)
 
+![k-means scatter ziim](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/KMeans_scatter_3d_zoom.png?raw=true)
 
