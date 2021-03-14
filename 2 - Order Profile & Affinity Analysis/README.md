@@ -1,5 +1,5 @@
 # E-commerce order profile analysis
-An order profile analysis of Olist's dataset
+A project of the Olist ecommerce business analysis
 
 **Lars Tinnefeld**, 2021-03-27
 
