@@ -319,7 +319,7 @@ Based on the observed customer behaviour the appropriate marketing strategy adde
 
 ---
 ## K-Means Clustering <a name="kmeans"></a>
-**Evaluation of the applied segmentation: Conficence Level***
+**Evaluation of the applied RFM segmentation by comparison with ML clustering method***
 
 K-Means Clustering is a method that supports identifying clusters in unlabeled data. Sklearns K-means algorithm is applied to find underlying segments that are different from the aribrarily chosen RFM classes. This will provide a different angle of view and confidence level on the above performed segmentation.
 
