@@ -26,7 +26,7 @@ For the decision making process in business development in general, and potentia
 
 ---
 ## Objectives <a name="objectives"></a>
-The analysis in this repository is looking into the customer's buying behaviour as well as their locations. By doing so a few quesions will be answered:
+The analysis in this repository is looking into the customer's buying behaviour as well as their locations. Three different approaches to segment customers is presented: Customer Segmentation, RFM Analysis and K-Means Clustering. By doing so a few quesions will be answered:
 
 - **Demographic relationship between customers**
 
