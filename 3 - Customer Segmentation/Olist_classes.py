@@ -39,7 +39,6 @@ class Olist_analysis():
 
         Outout:
         - waffle chart
-
         '''
         data_revenue = dict(round(
             dat.groupby(group).agg({metric: agg}))[metric])
