@@ -1,4 +1,4 @@
-# E-commerce order profile analysis
+# Order Profile Analysis
 A project of the Olist ecommerce business analysis
 
 **Lars Tinnefeld**, 2021-03-27
