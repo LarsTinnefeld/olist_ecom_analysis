@@ -151,13 +151,13 @@ Question to answer:
 
 ![Order profile](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Order_profile_chart.png?raw=true)
 
-The orders are generally small, as expected for e-commerce. Very few orders have more than one SKU. This already tells that an Market Basket Analysis will not produce a lot of results, if any. 79% SIO (single-item-orders), 93% SLO (single-line-orders).
+The orders are generally small, as expected for e-commerce. Very few orders have more than one SKU.  79% SIO (single-item-orders), 93% SLO (single-line-orders).
 
 **Pareto chart:**
 
 ![Pareto](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Pareto_revenue.png?raw=true)
 
-The pareto chart shows almost the typically expected 80/20 profile. That means, there is a good distinction between the product's velocities. Under under circumstances this would be a base for a clever product allocation to different pick methods and technilogies in a warehouse.
+The pareto chart shows almost the typically expected 80/20 profile. That means, there is a good distinction between the product's velocities. Under under circumstances this would be a base for a clever product allocation to different pick methods and technologies in a warehouse.
 
 **SKU classification:**
 
@@ -188,7 +188,7 @@ There is no association between the products. Reasons:
 - Large product range
 - Small orders
 
-This is not a lot and not a good base to deepen the efforts to extract information with this method.
+
 
 ## Conclusions <a name="conclusion"></a>
 
