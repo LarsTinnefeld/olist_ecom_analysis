@@ -149,7 +149,7 @@ Question to answer:
 
 **Order profile:**
 
-![Order profile](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Order_profile.png?raw=true)
+![Order profile](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Order_profile_chart.png?raw=true)
 
 The orders are generally small, as expected for e-commerce. Very few orders have more than one SKU. This already tells that an Market Basket Analysis will not produce a lot of results, if any. 79% SIO (single-item-orders), 93% SLO (single-line-orders).
 
