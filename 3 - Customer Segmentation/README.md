@@ -381,3 +381,10 @@ As seen in the initial **Olist Business Trend Analysis**, shipping time is varyi
 
 ### Next steps
 The analysis in this part of the project is a reflection of how consumers react to what and how Olist is offering. After seeing the customer behaviour, along with some demographic and geodemographic background, it is now important to also understand which improvements would enhance satisfaction and increase consumer attraction. This is one of the key objectives of the business case analysis and would be the logical next step. The objective can be archived by analyzing data from the customer satisfaction report, and also finding a way to recommend products in an effective way.
+
+---
+## References and links <a name="references"></a>
+
+**[Data in Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce)**
+
+**[Blog post in Medium](https://larstinnefeld.medium.com/customer-segmentation-of-a-brazilian-e-commerce-business-c6dae31a7861)**
