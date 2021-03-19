@@ -209,4 +209,4 @@ There is no association between the products. Reasons:
 
 **[Data in Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce)**
 
-Add link for blog post here
+**[Blog post in Medium](https://larstinnefeld.medium.com/sku-and-order-profile-analysis-dedc40c9e0ae)
