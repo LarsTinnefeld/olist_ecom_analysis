@@ -1,7 +1,7 @@
 # Order Profile Analysis
 A project of the Olist ecommerce business analysis
 
-**Lars Tinnefeld**, 2021-03-27
+**Lars Tinnefeld**
 
 ![Hero_picture](https://cdn.pixabay.com/photo/2016/03/23/07/57/receipt-1274307_960_720.jpg)
 
