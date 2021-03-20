@@ -269,12 +269,7 @@ This chart makes sense because we see that there is the spike at round about 270
 
 ![Frequency](https://github.com/LarsTinnefeld/olist_ecom_analysis/blob/main/Images/Frequency.png?raw=true)
 
-This is in line with what we have seen in the order profile analysis. There are many customers which only placed one order. As hinted in the initial "Business Trend Analysis", the error which many will likely get trapped is by simply applying `count of order_id` during grouping by customer_unique_id. Reason why this leads to a wrong result:
-- Quantity in the original order table is created by number of rows (order quantity = 4 means 4 rows of data)
-- Two SKUs (products) means two separate rows in the data table
-
-=> If we group by user "X" whose order contains procuct "A" with quantity 2 and procuct "B" with quantity 1, we will get 3 as count for this customer while in reality only one single order was placed.
-
+This is in line with what we have seen in the order profile analysis. There are many customers which only placed one order.
 **Monetary**
 
 Monetary is basically the cumulated purchase amount a customer as spent.
