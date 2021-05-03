@@ -2,5 +2,5 @@
     "python.linting.pylintEnabled": false,
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
-    "python.pythonPath": "C:\\Users\\Admin\\anaconda3\\python.exe"
+    "python.pythonPath": "c:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
 }
